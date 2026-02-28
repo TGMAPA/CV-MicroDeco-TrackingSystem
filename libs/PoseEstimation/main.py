@@ -17,9 +17,6 @@ def process_frame(frame):
     if len(results) > 0 and hasattr(results[0], 'keypoints'):
         keypoints = results[0].keypoints.data.cpu().numpy()[0]
 
-    #print("Restults..")
-    #print(results)
-
     # Draw the skeletal overlay
     annotated_frame = results[0].plot()
 

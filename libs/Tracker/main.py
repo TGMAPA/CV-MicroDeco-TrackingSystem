@@ -1,5 +1,4 @@
 import cv2
-
 from ultralytics import YOLO
 
 # Load the YOLO26 model
