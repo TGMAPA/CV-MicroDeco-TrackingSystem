@@ -1,0 +1,8 @@
+path: ../data/dataset
+train: images/train
+val: images/val
+
+names:
+  0: hand
+  1: ok_board
+  2: no_ok_board
