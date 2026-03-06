@@ -17,7 +17,7 @@ tracker_category_map = {
 
 
 def exec_training_system(
-        source = "data/raw/videos/VIDEO-2026-02-18-16-32-48.mp4",
+        source = "data/raw/raw_resources/secondvisit/IMG_9054.MOV", # "data/raw/videos/VIDEO-2026-02-18-16-32-46.mp4"
         window_title = "TrackingSystem",
         log = True
 ):

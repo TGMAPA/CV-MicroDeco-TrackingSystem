@@ -31,4 +31,11 @@ build/
 *.pt
 
 # Raw Images Dataset
-data/raw
+*.MOV
+*.mp4
+
+raw/
+
+dataset_v0
+
+*.cache
